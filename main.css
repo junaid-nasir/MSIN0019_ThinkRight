@@ -1,0 +1,132 @@
+.instructions {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.danger {
+  background-color: #f2dede;
+  color:black;
+}
+.admin-only {
+  display: none;
+}
+.mode-interact .admin-only,
+html.admin .admin-only {
+  display: block;
+}
+/* Hide username and session name fields */
+[data-field="UserEmail"] {
+  display: none;
+}
+[data-field="Session"] {
+  display: none;
+}
+/* End */
+/* Styles for the columns of varying widths */
+.screen-top-bottom-spacer {
+  padding: 15px 0 15px 0;
+}
+.screen-horizontal-center {
+  padding: 0 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 640px) {
+  .screen-top-bottom-spacer {
+    padding: 50px 0;
+  }
+  .screen-horizontal-center {
+    padding: 0 50px;
+  }
+}
+.new-small-h-card-list-container.ready .small-h-card-list-wrapper {
+  padding: 0 15px;
+}
+.new-small-h-card-list-container .small-h-card-list-item:last-child {
+  padding: 0 15px 0 15px;
+}
+@media (min-width: 1000px) {
+  .new-small-h-card-list-container.ready .small-h-card-list-wrapper {
+    justify-content: center;
+  }
+}
+/* Styles for the simple column layout */
+.simple-layout-column {
+  padding: 15px 15px 0 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 640px) {
+  .simple-layout-column {
+    padding: 50px 50px;
+  }
+}
+/* End */
+/* Input field width limits */
+.fl-login-form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End */
+/* News feed max-width adjustments */
+.new-news-feed-list-container {
+  max-width: 700px;
+}
+.new-news-feed-list-container .news-feed-item-content .container-fluid {
+  max-width: 700px;
+}
+.new-news-feed-list-container .slide-under {
+  max-width: 700px;
+}
+/* End */
+/* Directory max-width adjustments */
+.new-small-card-list-container {
+  max-width: 700px;
+}
+/* End */
+.required-info-label {
+  display: none;
+}
+.btn-primary.pull-right {
+  float: left !important;
+}
+.btn-secondary.pull-right {
+  float: left !important;
+}
+@media screen and (min-width: 640px) {
+  .form-html .btn+.btn {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+/* about this app overlay */
+@media screen and (min-width: 640px) {
+  .overlay-compact .overlayPanel {
+    max-width: 500px;
+    max-height: none;
+  }
+}
+/*small back button on admin screens*/
+.small-back-button [data-widget-package="com.fliplet.secondary-button"] .btn-secondary {
+  border: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background-color: transparent;
+}
+.small-back-button [data-widget-package="com.fliplet.secondary-button"] .btn-secondary:hover,
+.small-back-button [data-widget-package="com.fliplet.secondary-button"] .btn-secondary:focus,
+.small-back-button [data-widget-package="com.fliplet.secondary-button"] .btn-secondary:active {
+  background-color: transparent;
+}
+[data-widget-package="com.fliplet.dynamic-lists"] .simple-list-container .simple-list-item {
+  background-color: transparent;
+}
